@@ -1,0 +1,10 @@
+{
+    "name": "robsimpkins/has-offers",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {"RobSimpkins\\HasOffers\\": "src/"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    }
+}
