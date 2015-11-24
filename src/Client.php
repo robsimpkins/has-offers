@@ -210,7 +210,7 @@ abstract class Client
 
     /**
      * Prepare multipart form parameters.
-     * Presently files must be referenced by their full filepath, prefixed with @.
+     * A resource must be specified for each file to be uploaded. E.g. fopen('/path/to/file', 'r');
      *
      * @param  array  $args
      * @param  array  $params
